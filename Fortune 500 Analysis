@@ -61,7 +61,7 @@ VALUES
 
 --For this coursework, I came up with my own set of questions and attempted to answer them with SQL.
 
---What's the most common industry in the Fortune 500? Order them by average revenue (highest to lowest).
+--What's the most common industry in the Fortune 500? Order them by average revenue in billion (highest to lowest).
 SELECT industry,
 COUNT (*) AS number_of_businesses,
 ROUND ((AVG (revenue)/1000),1) AS average_revenue_in_billion
